@@ -1,0 +1,95 @@
+body{
+       font-family: 'Franklin Gothic Medium', 'Arial' !important; 
+        font-size: large !important;
+        background: lavender !important;
+        
+        /* background: url(/images/back2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; */
+}
+
+.heading{
+        text-align: center; 
+        font-family: 'Times New Roman'; 
+        color: darkorchid; 
+        text-decoration: underline; 
+        text-decoration-style: wavy;
+        text-decoration-color: deeppink;
+}
+
+.cont{
+        font-weight: normal !important;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        padding: 1%;
+}
+
+.nav-link{
+        color: black !important;
+}
+
+.nav-link:hover{
+        color: dodgerblue !important;
+        text-decoration: overline !important;
+        /* border: 2px crimson dotted; */
+}
+
+.nav-item{
+        padding-left: 2% !important;
+        margin-left: 1%;
+}
+
+.required{
+        color:red;
+}
+
+#mynav{
+        padding-left: 2% !important;
+}
+
+#banner-text{
+        font-size: 350%;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        color: darkgoldenrod;
+}
+
+#signup-btn{
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 3% 10% 3% 10%;
+}
+
+img {
+        transition: 0.9s;
+}
+
+.card-img-top{
+        min-height: 300px !important;
+        height: 400px !important
+}
+
+/* aside{
+        background: none !important;
+        visibility: hidden !important;
+        transition: 0.9s !important;
+} */
+
+/* select#avatar option[value="ava1"]{ background-image:url(/images/back2.jpg); } */
+
+#avaopts .col img:hover{
+        cursor: pointer;
+        border: 2px blueviolet solid;
+        padding: 1%;
+        transition: 0.5s;
+}
+
+#avaopts .col #avatarhelpId{visibility: hidden;}
+
+.list-group li:hover{background-color: plum !important; cursor: pointer !important;}
+
+#mydetails{
+        text-align: center !important;
+}
